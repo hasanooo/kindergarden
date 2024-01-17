@@ -23,7 +23,7 @@ use App\Http\Controllers\Frontend\StudentResultManagementController;
 
 
 
-
+//trying forking
 Route::get('/', [StoryManageController::class, 'ViewStory'])->name('story');
 
 Route::get('/login', [Login::class, 'Login'])->name('login');
